@@ -19,11 +19,12 @@ h1{
 
 .booklist
 {
+    display: grid;
+    gap: 1.30rem;
+    align-items: center;
     width:90vw;
     max-width: 1170px;
     margin:5rem auto;
-    display: grid;
-    gap: 2rem;
 }
 
 
@@ -39,7 +40,8 @@ h1{
 
 img{
     position:relative;
-    left: 50px;
+    left: 70px;
+
 }
 
 .book
