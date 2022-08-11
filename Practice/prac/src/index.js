@@ -4,32 +4,29 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 
+
 function BookList(){
+  let Blist=[{Title:"Python Crash Course",Image:"https://m.media-amazon.com/images/I/71sL0Qpd+YL._AC_UY218_.jpg",Author:"Eric Matthes"},
+             {Title:"The Self-Taught Programmer",Image:"https://m.media-amazon.com/images/I/51+Z8QVq+WL._AC_UY218_.jpg",Author:"Cory Althoff"}  
+             ]
   return (
-    <section className='booklist'>
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
+   <section className='booklist'>
+    {Blist.map((x)=>{return <Book image={x.Image} title={x.Title} author={x.Author}/>})}
     </section>
   );
 }
 
 
-const Book=()=>{
+const Book=(props)=>{
   return (
   <div className='book'>
-    <Image/>
-    <Title/>
-    <Author/>
+   <img src={props.image} alt='Error'/>
+   <h1>{props.title}</h1>
+   <h4>{props.author}</h4>
   </div>
   );
 }
 
-const Image=()=><img src='https://m.media-amazon.com/images/I/71sL0Qpd+YL._AC_UY218_.jpg' alt='Error'/>;
-const Title=()=><h1>Python Crash Course</h1>;
-const Author=()=><h4>Eric Matthes</h4>;
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
