@@ -9,6 +9,9 @@ function Sign_in() {
   return (
     <div className='Form'>
         <form className='Form-Container' autoComplete=''>
+           <div className='Heading-1'>
+            <h2>Sign-In</h2>
+           </div>
             {/*Name*/}
             <div className='Name'>
             <label>Full-Name</label>

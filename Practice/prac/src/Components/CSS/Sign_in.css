@@ -1,6 +1,7 @@
 .Form
 {
-    height: 45vh;
+
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,24 +9,26 @@
 }
 
 .Form-Container{
+    background: linear-gradient(to right, #a0b3c5, #7596d4);
+    color: rgb(2, 1, 1);
     width: 40vw;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     flex-flow: column wrap;
     justify-content:space-evenly;
     align-items: center;
-    border: 1px solid rgb(113, 155, 113);
+    border: 2px solid rgb(111, 157, 196);
     border-radius: 30px;
-    box-shadow:0 0 4px 1px whitesmoke;
+    box-shadow:0 0 9px 3px rgb(85, 129, 153);
 }
 
 
 .Form-Container> div
 {
     display: flex;
-    border-radius:10px;
-    box-shadow: 0 0 3px 1px rgb(136, 136, 107);
-    border:1px solid rgb(95, 81, 81);
+    border-radius:5px;
+    box-shadow: 0 0 3px 2px rgb(32, 71, 77);
+    border:1px solid rgb(78, 154, 173);
 }
 
 .Name,.Password,.Email
@@ -40,7 +43,7 @@
 .Password:hover,
 .Email:hover
 {
-    background-color:rgb(129, 177, 177);
+    background-color:rgb(111, 154, 180);
     color: black;
 }
 
@@ -61,5 +64,13 @@
 
 .btn-container:hover
 {
-    box-shadow: 0 0 3px 1px black;
+    box-shadow: 0 0 5px 2px rgb(2, 1, 1);
+}
+
+.Heading-1
+{
+    width:15vw;
+    height:8vh;
+    justify-content: center;
+    align-items: center;
 }

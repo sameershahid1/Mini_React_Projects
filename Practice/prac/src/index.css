@@ -24,14 +24,9 @@ img {
 {
     width: 100vw;
     height: 100vh;
-    color: rgb(225, 239, 245);
+    color: rgb(0, 0, 0);
     font-size: 1.2rem;
     letter-spacing: 0.02rem;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #243B55, #141E30);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #243B55, #141E30);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
@@ -49,6 +44,7 @@ img {
 
 .Header-menu
 {
+    background: linear-gradient(to right, #759dc5, #94acd8);
     padding: 0;
     margin: 0;
     height: 11vh;
@@ -75,6 +71,7 @@ img {
 .m-1:hover
 {
     font-size: 1.4rem;
+    text-decoration:underline;
     transition: 0.3s ease-in all;
 }
 
@@ -82,10 +79,12 @@ img {
 
 .Footer-menu
 {
+    background: linear-gradient(to right, #444c53, #000000);
+    color:whitesmoke;
     text-align: center;
     height: 6vh;
     padding-top: 12px;
-    box-shadow: 0 0 7px 1px black;
+    box-shadow: 0 0 7px 1px rgb(187, 187, 187);
 }
 
 /*Main Section*/
@@ -146,11 +145,15 @@ img {
 
 .btn{
     border-radius: 10px;
-    background-color: #111d31;
+    background: linear-gradient(to right, #4a545e, #7b8699);
     font-size: 1rem;
     font-weight:900;
-    color: #8acdcfb0;
+    color:rgb(183, 208, 238);
     width: 8vw;
     height:6vh;
 }
 
+.btn:hover
+{
+    background: linear-gradient(to right, #4a545e, #616879);
+}
