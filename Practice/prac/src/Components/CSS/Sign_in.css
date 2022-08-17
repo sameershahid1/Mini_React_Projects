@@ -1,0 +1,65 @@
+.Form
+{
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:1.5rem;
+}
+
+.Form-Container{
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    border: 1px solid rgb(113, 155, 113);
+    border-radius: 30px;
+    box-shadow:0 0 4px 1px whitesmoke;
+}
+
+
+.Form-Container> div
+{
+    display: flex;
+    border-radius:10px;
+    box-shadow: 0 0 3px 1px rgb(136, 136, 107);
+    border:1px solid rgb(95, 81, 81);
+}
+
+.Name,.Password,.Email
+{
+    width:23vw;
+    height:5vh;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.Name:hover,
+.Password:hover,
+.Email:hover
+{
+    background-color:rgb(129, 177, 177);
+    color: black;
+}
+
+.em{
+    position: relative;
+
+}
+
+.input-1
+{
+    border-radius: 6px;
+    height: 3vh;
+    color: rgb(26, 43, 26);
+    font-size:1rem;
+    font-weight: 700;
+}
+
+
+.btn-container:hover
+{
+    box-shadow: 0 0 3px 1px black;
+}
