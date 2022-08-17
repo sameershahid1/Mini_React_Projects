@@ -10,7 +10,7 @@ const Page = () => {
         <div className='Container'>
             <Header/>
             <MainContent/>
-            <Footer/>        
+            <Footer/>
         </div>
     );
 }

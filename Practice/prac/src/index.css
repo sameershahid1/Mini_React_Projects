@@ -66,14 +66,12 @@ img {
     flex-flow: row wrap;
     justify-content:space-evenly;
     align-items:center;
-    width:17vw;
+    width:23vw;
     margin-right: 2rem;
+
 }
 
-.m-1
-{
-    border: 1px solid transparent;    
-}
+
 .m-1:hover
 {
     font-size: 1.4rem;
@@ -135,3 +133,24 @@ img {
 {
     list-style-type: none;
 }
+
+.btn-outer
+{
+    width: 44vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.btn{
+    border-radius: 10px;
+    background-color: #111d31;
+    font-size: 1rem;
+    font-weight:900;
+    color: #8acdcfb0;
+    width: 8vw;
+    height:6vh;
+}
+

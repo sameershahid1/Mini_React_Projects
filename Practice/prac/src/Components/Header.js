@@ -6,9 +6,10 @@ const Header=()=>(
  <header className="Header-menu p1">
       <img src={Image} alt='Error'/>
       <ul className='nav-items'>
-        <li className="m-1">Pricing</li>
+        <li className="m-1">Home</li>
         <li className="m-1">About</li>
-        <li className="m-1">Contact</li>
+        <li className="m-1">Sign-in</li>
+        <li className="m-1">Log-in</li>
       </ul>
   </header>
 );
