@@ -1,0 +1,42 @@
+/*Main Section*/
+.Main {
+    background: linear-gradient(to right, #a0b3c5, #7596d4);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 60vh;
+    box-shadow: 0 0 8px 2px rgb(110, 151, 163);
+    border:1px solid rgb(74, 137, 179);
+    border-radius: 20px;
+    position: relative;
+    left: 360px;
+}
+
+.Main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Heading {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 30px;
+}
+
+
+.points {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 43vw;
+}
+
+.item {
+    list-style-type: none;
+}

@@ -27,6 +27,7 @@ img {
     color: rgb(0, 0, 0);
     font-size: 1.2rem;
     letter-spacing: 0.02rem;
+    background-color: rgba(255, 255, 255, 0.829);
 }
 
 
@@ -87,51 +88,6 @@ img {
     box-shadow: 0 0 7px 1px rgb(187, 187, 187);
 }
 
-/*Main Section*/
-.Main
-{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    width:50vw;
-    height: 60vh;
-    box-shadow:0 0 12px 4px black;
-    border-radius: 20px;
-    position: relative;
-    left: 360px;
-}
-
-.Main
-{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content:center;
-    align-items:center;
-}
-
-.Heading
-{
-    border: 1px solid gray;
-    border-radius: 10px;
-    padding:10px 10px 10px 10px;
-    margin-bottom: 30px;
-}
-
-
-.points
-{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
-    width: 43vw;
-}
-
-.item
-{
-    list-style-type: none;
-}
 
 .btn-outer
 {
@@ -149,11 +105,12 @@ img {
     font-size: 1rem;
     font-weight:900;
     color:rgb(183, 208, 238);
-    width: 8vw;
-    height:6vh;
+    width: 9vw;
+    height:5vh;
 }
 
 .btn:hover
 {
     background: linear-gradient(to right, #4a545e, #616879);
+    box-shadow: 0 0 5px 2px rgb(2, 1, 1);
 }

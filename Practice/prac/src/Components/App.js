@@ -8,9 +8,9 @@ import MainContent from './MainContent';
 const Page = () => {
     return (
         <div className='Container'>
-            <Header/>
-            <MainContent/>
-            <Footer/>
+            <Header key={1}/>
+            <MainContent key={2}/>
+            <Footer key={3}/>
         </div>
     );
 }

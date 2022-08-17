@@ -1,4 +1,5 @@
 import React from 'react'
+import './CSS/Jokes_List.css'
 
 function Jokes_List({data,next,pre}) {
   const topic=data.Topic;

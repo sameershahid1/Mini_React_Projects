@@ -1,11 +1,9 @@
 .Form
 {
-
     height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size:1.5rem;
 }
 
 .Form-Container{
@@ -19,7 +17,7 @@
     align-items: center;
     border: 2px solid rgb(111, 157, 196);
     border-radius: 30px;
-    box-shadow:0 0 9px 3px rgb(85, 129, 153);
+    box-shadow:0 0 4px 1px rgb(85, 129, 153);
 }
 
 
@@ -28,14 +26,14 @@
     display: flex;
     border-radius:5px;
     box-shadow: 0 0 3px 2px rgb(32, 71, 77);
-    border:1px solid rgb(78, 154, 173);
+    border:1px solid rgb(35, 40, 41);
 }
 
 .Name,.Password,.Email
 {
-    width:23vw;
-    height:5vh;
-    justify-content:space-evenly;
+    width:19vw;
+    height:7vh;
+    justify-content:center;
     align-items: center;
 }
 
@@ -47,18 +45,17 @@
     color: black;
 }
 
-.em{
-    position: relative;
 
-}
 
 .input-1
 {
     border-radius: 6px;
-    height: 3vh;
-    color: rgb(26, 43, 26);
+    height: 5vh;
+    width:18vw;
     font-size:1rem;
     font-weight: 700;
+    text-align: center;
+    color: rgb(26, 43, 26);
 }
 
 
@@ -69,8 +66,11 @@
 
 .Heading-1
 {
-    width:15vw;
-    height:8vh;
+    font-size: 1.5rem;;
+    color:#081041b2;
+    width:20vw;
+    height: 9vh;
+    background: linear-gradient(to right, #a8bdd1, #97b5ec);
     justify-content: center;
     align-items: center;
 }
