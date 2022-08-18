@@ -5,7 +5,8 @@ function Jokes_List({data,next,pre}) {
   const topic=data.Topic;
   const content=data.Content;
   return (
-<div className='Main p1'>
+<div className='JokerList-Container'>
+    <div className='Main p1'>
      <div className='Heading c-1'>
         <h1>{topic}</h1>
      </div>
@@ -16,6 +17,7 @@ function Jokes_List({data,next,pre}) {
        <button className='btn' onClick={pre}>Prev</button>
        <button className='btn' onClick={next}>Next</button>
      </div>
+    </div>
 </div>
   )
 }

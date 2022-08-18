@@ -31,14 +31,13 @@ const Pre=()=>{
   }
  };  
 return (
-    <main>
-       <Sign_in/>
-    </main>
+   <main>
+      <Sign_in/>
+   </main>
  );
 };
 
 export default MainContent
 
 
-//<Jokes_List data={Data[count]} next={Next} pre={Pre}/>
-
+//        <Jokes_List data={Data[count]} next={Next} pre={Pre}/>

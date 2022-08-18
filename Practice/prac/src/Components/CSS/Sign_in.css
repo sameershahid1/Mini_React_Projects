@@ -49,13 +49,14 @@
 
 .input-1
 {
-    border-radius: 6px;
-    height: 5vh;
-    width:18vw;
+    text-align: center;
     font-size:1rem;
     font-weight: 700;
-    text-align: center;
+    height: 5vh;
+    width: 18vw;
     color: rgb(26, 43, 26);
+    border-radius: 6px;
+    border-color: transparent;
 }
 
 
@@ -74,3 +75,4 @@
     justify-content: center;
     align-items: center;
 }
+

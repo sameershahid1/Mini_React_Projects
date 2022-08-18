@@ -7,7 +7,7 @@ import MainContent from './MainContent';
 
 const Page = () => {
     return (
-        <div className='Container'>
+        <div className='Holder'>
             <Header key={1}/>
             <MainContent key={2}/>
             <Footer key={3}/>

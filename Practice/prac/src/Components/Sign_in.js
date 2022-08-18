@@ -14,7 +14,7 @@ function Sign_in() {
            </div>
             {/*Name*/}
             <div className='Name'>
-            <input type={"text"} className={"input-1"} placeholder={"Name"} onChange={(e)=>{setName(e.target.value)}}/><br/>
+            <input type={"text"} className={"input-1"} placeholder={"User-Name"} onChange={(e)=>{setName(e.target.value)}}/><br/>
             </div>
 
             {/*Password*/}   

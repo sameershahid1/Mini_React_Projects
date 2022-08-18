@@ -3,29 +3,24 @@
     background: linear-gradient(to right, #a0b3c5, #7596d4);
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
-    width: 50vw;
-    height: 60vh;
+    width: 55vw;
+    height: 65vh;
     box-shadow: 0 0 8px 2px rgb(110, 151, 163);
     border:1px solid rgb(74, 137, 179);
     border-radius: 20px;
-    position: relative;
-    left: 360px;
 }
 
-.Main {
+.Heading 
+{
     display: flex;
-    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-}
-
-.Heading {
-    border: 1px solid gray;
     border-radius: 10px;
-    padding: 10px 10px 10px 10px;
-    margin-bottom: 30px;
+    text-align: center;
+    width: 40vw;
+    height: 13vh;
 }
 
 
@@ -34,9 +29,40 @@
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    width: 43vw;
+    width: 50vw;
+    height:31vh;
 }
 
 .item {
     list-style-type: none;
+}
+
+.JokerList-Container 
+{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:991px)
+{
+     .Main
+     {
+        width:70vw;
+        height:73vh;
+        font-size:1rem;
+     }
+
+     .JokerList-Container
+     {
+        height: 75vh;
+     }
+
+     .Heading
+     {
+        font-size:0.8rem;        
+     }
 }

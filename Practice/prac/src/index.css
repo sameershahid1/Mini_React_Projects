@@ -15,57 +15,56 @@ h5 {
 
 
 img {
-    width: 100px;
-    height: 80px;
+    width: 8vw;
+    height: 10vh;
+    border-radius:48%;
 }
 
 
-.Container
+.Holder
 {
     width: 100vw;
     height: 100vh;
     color: rgb(0, 0, 0);
     font-size: 1.2rem;
     letter-spacing: 0.02rem;
-    background-color: rgba(255, 255, 255, 0.829);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
 }
-
-
-/*Local Settings*/
-.Container
-{
-    display: grid;
-    gap: 0.7rem;
-    align-content: space-between;
-}
-
 
 
 /*Header Section*/
 
 .Header-menu
 {
-    background: linear-gradient(to right, #759dc5, #94acd8);
-    padding: 0;
-    margin: 0;
-    height: 11vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    box-shadow:0 0 8px 1px #000000;
+    height: 11vh;
+    width: 86vw;
 }
+
+.Header-outer
+{
+    background: linear-gradient(to right, #759dc5, #94acd8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 8px 1px #000000;
+}
+
 
 .nav-items
 {
-    list-style-type: none;
     display: flex;
     flex-flow: row wrap;
     justify-content:space-evenly;
     align-items:center;
-    width:23vw;
-    margin-right: 2rem;
-
+    list-style-type: none;
+    width:25vw;
+    height:7vh;
 }
 
 
@@ -73,7 +72,7 @@ img {
 {
     font-size: 1.4rem;
     text-decoration:underline;
-    transition: 0.3s ease-in all;
+    transition: 0.4s ease-in all;
 }
 
 /*Foote Section*/
@@ -91,12 +90,11 @@ img {
 
 .btn-outer
 {
-    width: 44vw;
-    height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    width: 44vw;
+    height: 9vh;
 }
 
 .btn{
@@ -104,7 +102,7 @@ img {
     background: linear-gradient(to right, #4a545e, #7b8699);
     font-size: 1rem;
     font-weight:900;
-    color:rgb(183, 208, 238);
+    color:whitesmoke;
     width: 9vw;
     height:5vh;
 }
@@ -113,4 +111,5 @@ img {
 {
     background: linear-gradient(to right, #4a545e, #616879);
     box-shadow: 0 0 5px 2px rgb(2, 1, 1);
+    transition: 0.3s ease-in-out all;
 }
