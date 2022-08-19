@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
-
-import Jokes_List from './Jokes_List';
-import Sign_in from './Sign_in'
+import { Route,Routes } from 'react-router-dom';
+import Home from './Jokes_List';
+import Sign from './Sign_in'
 
 const Data=[
      {Topic:"Happy Independent day Jokes",
@@ -32,12 +32,13 @@ const Pre=()=>{
  };  
 return (
    <main>
-      <Sign_in/>
+      <Routes>
+         <Route path='/sign-in' element={<Sign/>} />
+         <Route path='/' element={<Home data={Data[count]} next={Next} pre={Pre}/>} />         
+      </Routes>
    </main>
  );
 };
 
 export default MainContent
 
-
-//        <Jokes_List data={Data[count]} next={Next} pre={Pre}/>

@@ -2,16 +2,20 @@ import React from 'react';
 //Component
 import Header from './Header'
 import Footer from './Footer'
-import MainContent from './MainContent';
+import Main from './MainContent'
+import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
+
 
 
 const Page = () => {
     return (
+<Router>
         <div className='Holder'>
             <Header key={1}/>
-            <MainContent key={2}/>
+            <Main key={2}/>
             <Footer key={3}/>
         </div>
+</Router>
     );
 }
 
