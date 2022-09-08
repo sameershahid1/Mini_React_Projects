@@ -1,0 +1,65 @@
+.container
+{
+    width:500px;
+    height:500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10%;
+    background-color: rebeccapurple;
+}
+
+h1
+{
+    padding:20px;
+    font-size: 50px;
+    color:white;
+}
+
+label
+{
+    color: white;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input
+{
+    width:80%;
+    margin:10px;
+    padding:10px;
+    font-size:20px;
+}
+
+.login-btn
+{
+    border: none;
+    width:80%;
+    padding:10px;
+    margin-top:1rem;
+    cursor: pointer;
+}
+
+
+.login-btn:hover
+{
+  color: white;
+  background-color:rgb(18,20,26);
+}
+
+
+
+
+
+
+
