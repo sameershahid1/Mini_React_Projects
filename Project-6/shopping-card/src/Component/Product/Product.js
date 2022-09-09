@@ -1,13 +1,27 @@
 import React from 'react';
 import './Product.css';
+import { useDispatch} from 'react-redux';
+import { cartActions } from '../../Redux/Slice/cart-slice';
 
 const Product = ({id,name,imgURL,price}) => {
-  return (
-    <div className="card">
+const CartDispatch=useDispatch();
+
+const AddToCart=()=>{
+CartDispatch(cartActions.AddToCart(
+{
+  name,
+  id,
+  price
+}  
+));
+};
+
+return (
+  <div className="card">
       <img src={imgURL} alt={name} />
       <h2>{name}</h2>
       <p>${price}</p>
-      <button type='text'>Add to card</button>        
+      <button onClick={AddToCart} type='text'>Add to card</button>
     </div>
   )
 }

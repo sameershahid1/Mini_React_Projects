@@ -1,20 +1,19 @@
 import React from 'react';
 import './Auth.css';
 import { useDispatch } from 'react-redux';
-import {authActions} from '../../Redux/Store/auth-slice'
+import {authActions} from '../../Redux/Slice/auth-slice'
 
 const Auth = () => {
 const authDispathc=useDispatch();
 const handleSubmit=(e)=>{
-e.preventDefault();
-authDispathc(authActions.login());
-
+  e.preventDefault();
+  authDispathc(authActions.login());
 }
 
 return (
     <div className="container">
       <h1>Login</h1>
-      <form onSubmit={handleSubmit} autoComplete>
+      <form onSubmit={handleSubmit} autoComplete='true'>
           <label htmlFor="id">ID</label>
            <input type="text" name='id' id='id' required/>
            <label htmlFor="password">Password</label>
